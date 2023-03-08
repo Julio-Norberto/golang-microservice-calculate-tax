@@ -1,4 +1,4 @@
-package usecases
+package usecase
 
 import "github.com/Julio-Norberto/gointensivo2/internal/entity"
 
@@ -32,7 +32,6 @@ func (c *CalculateFinalPrice) Execute(input OrderInputDTO) (*OrderOutputDTO, err
 	if err != nil {
 		return nil, err
 	}
-
 	return &OrderOutputDTO{
 		ID:         order.ID,
 		Price:      order.Price,
