@@ -5,6 +5,7 @@ go 1.19
 require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
 	github.com/mattn/go-sqlite3 v1.14.16
+	github.com/rabbitmq/amqp091-go v1.7.0
 	github.com/stretchr/testify v1.8.2
 )
 
